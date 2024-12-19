@@ -3,7 +3,6 @@ var bodyParser = require("body-parser");
 var routes = require("./routes.js");
 var app = express();
 var port = normalizePort(process.env.PORT || "4000");
-var debug = require('debug')('demo:server');
 var http = require('http');
 const cors = require('cors')
 app.use(cors())
